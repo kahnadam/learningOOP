@@ -4,3 +4,10 @@
 
 # Lesson 2: Use Functions
 
+import time
+import webbrowser
+
+time.sleep(4)
+webbrowser.open("http://youtube.com")
+
+
