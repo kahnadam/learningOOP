@@ -1,3 +1,4 @@
+import fresh_tomatoes
 import media
 
 toy_story = media.Movie("Toy Story",
@@ -26,7 +27,7 @@ school_of_rock = media.Movie("School of Rock",
                              "http://img.moviepostershop.com/the-school-of-rock-movie-poster-2003-1020191888.jpg",
                              "https://www.youtube.com/watch?v=3PsUJFEBC74")
 
-12_angry_men = media.Movie("12 Angry Men",
+twelve_angry_men = media.Movie("12 Angry Men",
                            "The debates of a murder trial's jury",
                            "https://images-na.ssl-images-amazon.com/images/I/81LX%2BJlavLL._SY550_.jpg",
                            "https://www.youtube.com/watch?v=A7CBKT0PWFA")
@@ -36,3 +37,5 @@ superbad = media.Movie("Superbad",
                        "https://images-na.ssl-images-amazon.com/images/I/51gr0eN7X0L.jpg",
                        "https://www.youtube.com/watch?v=MNpoTxeydiY")
 
+movies = [toy_story, avatar, airplane, school_of_rock, twelve_angry_men, superbad]
+fresh_tomatoes.open_movies_page(movies)
