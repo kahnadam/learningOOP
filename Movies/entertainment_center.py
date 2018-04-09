@@ -6,3 +6,10 @@ toy_story = media.Movie("Toy Story",
                         "https://www.youtube.com/watch?v=KYz2wyBy3kc") 
 
 print(toy_story.storyline)
+
+avatar = media.Movie("Avatar",
+                     "A marine on an alien planet",
+                     "http://www.impawards.com/2009/posters/avatar.jpg",
+                     "https://www.youtube.com/watch?v=5PSNL1qE6VY")
+
+print(avatar.storyline)
